@@ -22,11 +22,11 @@ for (int i = 0; n != 0; i++)
                 n_second = n;
                 max_count++;
             }
-            else
-                {
-                    n_first = n_second; 
-                    n_second = n;
-                }
+        else
+            {
+                n_first = n_second; 
+                n_second = n;
+            }
         if (temp_i_second > temp_i_first)
             max = temp_i_second - temp_i_first;
         else
